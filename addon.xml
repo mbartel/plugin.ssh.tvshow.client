@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.ssh.tvshow.client" name="SSH TV-Show Client" version="0.1.0" provider-name="mbartel">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.simplejson" version="2.0.10"/>
+    <import addon="xbmc.addon" version="12.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <language></language>
+    <license>MIT</license>
+    <email>Michael.Bartel@gmx.net</email>
+
+    <summary lang="en">Access TV show episodes on a remote SSH server</summary>
+    <description lang="en">Let you copy TV show episodes from a remote SSH server to your local storage. Paramike module for Python has to be installed!</description>
+
+    <summary lang="de">Zugriff auf TV-Serienepisoden auf einem SSH-Server</summary>
+    <description lang="de">Ermöglicht den Zugriff auf Episoden von TV Serien via SSH und das kopieren der Episodendateien auf einen lokalen Da­ten­trä­ger. Das Python Paramiko-Modul muss installiert sein.</description>
+  </extension>
+</addon>

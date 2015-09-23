@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+	<category label="32000">
+		<setting type="text" id="host" label="32001" default="sftp.mystoragehost.com"/>
+		<setting type="number" id="port" label="32002" default="22"/>
+		<setting type="text" id="username" label="32003" default=""/>
+		<setting type="text" id="password" label="32004" default="" option="hidden"/>
+	</category>
+	<category label="32010">
+		<setting type="text" id="remoteFolder" label="32011" default="/media/"/>
+		<setting type="folder" id="localFolder" label="32012"/>
+	</category>
+</settings>

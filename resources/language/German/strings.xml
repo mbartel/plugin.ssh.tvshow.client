@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<strings>
+	<string id="32000">SSH Zugangsdaten</string>
+	<string id="32001">Host</string>
+	<string id="32002">Port</string>
+	<string id="32003">Benutzername</string>
+	<string id="32004">Passwort</string>
+
+	<string id="32010">Ordnereinstellungen</string>
+	<string id="32011">Server</string>
+	<string id="32012">Lokal</string>
+
+    <string id="10000">Anmeldung fehlgeschlagen</string>
+    <string id="10001">Konnte keine SSH/SFTP Verbindung aufbauen. Bitte Benutzername und Passwort pruefen.</string>
+
+    <string id="10010">SSH TV-Show client</string>
+    <string id="10011">Lade TV-Show information vom SSH server ...</string>
+    <string id="10012">Lade TV-Show information vom SSH server ...</string>
+    <string id="10020">Übertrage Dateien ...</string>
+</strings>

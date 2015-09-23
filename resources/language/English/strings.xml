@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<strings>
+	<string id="32000">SSH credentials</string>
+	<string id="32001">Host</string>
+	<string id="32002">Port</string>
+	<string id="32003">Username</string>
+	<string id="32004">Password</string>
+
+	<string id="32010">Synchronisation paths</string>
+	<string id="32011">Remote path</string>
+	<string id="32012">Local path</string>
+
+    <string id="10000">Authentication failed</string>
+    <string id="10001">Could not establish SSH/SFTP connection. Check your username and password and try again.</string>
+
+    <string id="10010">SSH TV-Show client</string>
+    <string id="10011">Fetching TV-Show data from remote server ...</string>
+    <string id="10012">Fetching TV-Show data from remote server ...</string>
+    <string id="10020">Transfering file</string>
+</strings>
