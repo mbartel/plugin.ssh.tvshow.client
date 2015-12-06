@@ -106,7 +106,11 @@ def get_tv_show_list_from_remote_server():
           lastSeason = season
           lastSeasonFolder = folderName
 
-    fileNames = sftp.listdir(remoteFolder + '/' + dir + '/' + lastSeasonFolder)
+    try:
+      fileNames = sftp.listdir(remoteFolder.encode('utf-8', 'ignore') + '/' + dir.encode('utf-8', 'ignore') + '/' + lastSeasonFolder.encode('utf-8', 'ignore'))
+    except UnicodeDecodeError, err:
+      print 'ERROR:', err 
+    
     lastEpisode = 0
     lastEpisodeFile = ''
     for fileName in fileNames:
